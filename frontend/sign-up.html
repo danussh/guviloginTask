@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <form method="POST">
+        <h2>Sign up</h2>
+        <label for="firstname">Name<span>*</span></label>
+        <input id="firstname" type="text" name="firstname" required autocomplete="off">
+
+        <label for="age">Age<span>*</span></label>
+        <input id="age" type="age" name="age" required>
+
+        <label for="contact">contact<span>*</span></label>
+        <input id="contact" type="number" name="contact" required autocomplete="off">
+
+        <label for="email">Email<span>*</span></label>
+        <input id="signupemail" type="email" name="signupemai" required autocomplete="off">
+
+        <label for="password">Password<span>*</span></label>
+        <input id="password" type="password" name="password" required autocomplete="off">
+
+        <button type="button" onclick="signupUser()" >Sign up</button>
+        <p class="newuser">Already a member?<a href="index.html" class="new">Log in</a></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
