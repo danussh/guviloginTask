@@ -1,3 +1,4 @@
+//hosted backend https://guvi7.herokuapp.com/
 require("dotenv").config();
 const port=process.env.PORT||4040
 //const DBURL="mongodb+srv://training:WUJMyPMB7rW9OP5F@guvi.k00x5.mongodb.net/productManagement?retryWrites=true&w=majority
