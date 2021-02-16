@@ -1,3 +1,3 @@
 # guviloginTask
 
-netlify link: 
+netlify link: https://guvitask.netlify.app/
